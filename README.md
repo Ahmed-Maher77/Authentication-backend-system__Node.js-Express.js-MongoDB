@@ -1,4 +1,4 @@
-# Full-Stack Authentication System**  
+# Full-Stack Authentication System
 A **secure and scalable** authentication system built with **React (Frontend), Node.js, Express.js (Backend), and MongoDB (Database)**. It features **JWT-based authentication, bcrypt password hashing, protected routes, and session management** using **access and refresh tokens**.  
 
 ## 🔑 **Key Features**  
