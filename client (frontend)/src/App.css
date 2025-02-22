@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+
+.LoginForm, .SignUpForm {
+    margin-block: 50px;
+    h2 {
+        text-align: center;
+    }
+    form {
+        max-width: 600px;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        fieldset {
+            border: none;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            input {
+                padding: 8px;
+            }
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+    }
+}
+
+
+button:disabled {
+    background-color: #707070 !important;
+    cursor: not-allowed !important;
+}
+
+.Logout {
+    display: block;
+    margin-left: auto;
+    padding: 13px 25px;
+    font-size: 1rem;
+    background-color: rgb(214, 0, 0);
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    transition: 0.3s;
+    cursor: pointer;
+    &:hover {
+        background-color: rgb(255, 0, 0);
+    }
+}
+
+.bold {
+    font-weight: bold;
+}
